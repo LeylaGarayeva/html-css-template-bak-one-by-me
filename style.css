@@ -1,0 +1,246 @@
+*{
+	list-style: none;
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+
+.main{
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.logo{
+	float: left;
+}
+.logo h3{
+	margin-left: 50px;
+	margin-bottom: 0;
+}
+
+.menu{
+	float: right;
+}
+ul li{
+	display: inline;
+	padding: 15px;
+	text-transform: uppercase
+}
+ul li:hover{
+	display: inline;
+	padding: 15px;
+	text-transform: uppercase;
+	background-color: #1bb899;
+	color:white;
+
+}
+/*-------HEADER---------------*/
+
+header{
+	height: 60px;
+	border:1px solid silver;
+}
+
+
+/*-------CONTAINER----------------*/
+.container{
+	height: 2000px;
+}
+.slider{
+	height: 600px;
+	border:1px solid silver;
+	background-image:url('bg.png');
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.slider h3{
+	color:black;
+	text-transform: uppercase;
+	padding: 50px;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.5em;
+}
+.slider p{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-weight: bold;
+}
+.slider input{
+	margin-left: 45%;
+	margin-right: 45%;
+	background-color: #1bb899;
+	color:white;
+	padding: 10px;
+	width: 120px;
+	border:none;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+
+
+/* -------------portfolio------------------*/
+.portfolio{
+/*	height: 1000px;
+	border:1px solid silver;*/
+}
+.portfolio h3{
+	text-align: center;
+	padding-top:50px;
+
+}
+.portfolio p{
+	text-align: center;
+
+
+}
+
+.for_input{
+	height: 50px;
+	margin-left: 36%;
+}
+.for_input input{
+	background-color: #1bb899;
+	color:white;
+	float: left;
+	margin-left: 1%;
+	padding: 15px;
+	border:none;
+	margin-top: 2%;
+
+}
+
+.round{
+	margin-left: 7%;
+	margin-right:10%;
+}
+.for_round{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #d1d2d4;
+	float: left;
+	margin-left: 6%;
+	margin-top:4%;
+}
+.for_round:hover{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #56b494;
+	float: left;
+	margin-left: 6%;
+	margin-top:4%;
+}
+.for_round:nth-child(even){
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #aeafb3;
+	float: left;
+	margin-left: 6%;
+	margin-top:4%;
+}
+.for_round:nth-child(even):hover{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #01a89e;
+	float: left;
+	margin-left: 6%;
+	margin-top:4%;
+}
+
+.about{
+	height: 700px;
+	background-color: #16a086;
+	margin-top: 3%;
+}
+
+.about h3{
+	text-align: center;
+	padding-top:50px;
+	color:white;
+
+}
+.about p{
+	text-align: center;
+	color:white;
+
+
+}
+.emp{
+	height: 500px;
+	width: 25%;
+	float: left;
+	margin-left: 6%;
+	background-color: white
+}
+.block{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.emp_img{
+	height: 50%;
+	/*background-image: url('capture.png')
+	*/
+}
+.emp_text p{
+color:black;
+}
+.emp_img img{
+	height: 250px;
+	width: 100%;
+}
+.contact{
+	height: 500px;
+
+}
+.contact h3{
+	text-align: center;
+	padding-top:50px;
+
+}
+.contact p{
+	text-align: center;
+}
+.con_left{
+	height: 300px;
+	width: 49%;
+	float: left;
+}
+.con_right{
+	height: 300px;
+	width: 50%;
+	float: right;
+}
+.name{
+	padding: 10px;
+	margin-left: 5%;
+	width: 35%;
+	margin-left: 3%;
+}
+textarea{
+	width: 80%;
+		margin-left: 3%;
+		height: 150px;
+		margin-top: 5%;
+}
+.submit{
+
+float: right;
+margin-right: 17%;
+padding: 10px;
+width: 150px;
+margin-top: 2%;
+color:white;
+border:none;
+background-color: #1bb899;
+}
+footer{
+	height: 50px;
+	background-color: grey;
+	margin-top: 5%;
+}
